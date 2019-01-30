@@ -1,0 +1,80 @@
+page-studentview {
+    .cl-gray {
+        color: gray;
+    }
+    .cl-gray-math {
+        background-color: #87CEEB;
+        color: gray;
+        margin: 0px auto !important;
+        height: 50px;
+        width: 50px
+    }
+    .cl-gray-science {
+        background-color:#1874CD;
+        color: gray;
+        margin: 0px auto !important;
+        height: 50px;
+        width: 50px
+    }
+    .ft-w400 {
+        font-weight: 400;
+    }
+    .item-divider {
+        border-top: none;
+        border-bottom: none;
+    }
+    .std-attd {
+        width: 80px;
+        height: 30px;
+        display: inline-block;
+        &.present {
+            background: green;
+        }
+        &.absent {
+            background: gray;
+        }
+    }
+    .topic-details-table {
+        border: 1px solid lightgray;
+        margin: 20px 0;
+        .row {
+            border-bottom: 1px solid lightgray;
+            &:last-of-type {
+                border-bottom: none;
+            }
+        }
+        .col {
+            border-right: 1px solid lightgray;
+            &   :last-of-type {
+                border-right: none;
+            }
+            div {
+                padding: 10px;
+            }
+        }
+    }
+    .teacher-notes {
+        .card {
+            line-height: 20px;
+        }
+        ion-buttons {
+            margin-top: 10px;
+        }
+    }
+
+    .card-view {
+        height: 120px;
+    }
+
+    .content-name-panel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        font-size: 1.7em;
+    }
+    .content-name-image {
+        width: 100%;
+        height: 30px;
+    }
+}

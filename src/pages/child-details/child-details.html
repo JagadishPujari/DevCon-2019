@@ -1,0 +1,14 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Child details</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-card *ngFor="let child of childrenInfoList; let i=index" (click)='showStudentCalenderView(i)'>
+        <ion-card-header>
+          {{child.name}}
+        </ion-card-header>
+      </ion-card>
+</ion-content>
